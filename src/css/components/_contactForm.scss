@@ -1,0 +1,25 @@
+.contactForm {
+	
+	&__input {
+		height: 49px;
+
+	}
+
+	&__selectbox {
+		font: inherit;
+		height: 50px;
+	}
+	&__btn{
+		background-color: #ffb600;
+		
+		float: right;
+		height: 48px;
+		color: white;
+		font-size: 15px;
+	}
+	
+
+}
+
+
+

@@ -1,0 +1,20 @@
+.sectionTop {
+	display: flex;
+	flex-direction: column;
+	&__title {
+		@include font($rr, 2.2rem, $color-dark,26px);
+		text-transform: uppercase;
+	}
+
+	&__icon {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	&__text{
+		color:#919191;
+		font-size: 16px;
+		line-height: 28px;
+		margin-bottom: 50px;
+		padding: 0 120px;
+	}
+}

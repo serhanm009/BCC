@@ -1,0 +1,95 @@
+.service {
+	margin-top: 65px;
+	&__leftBtn {
+		margin-bottom: 5px;
+		background-color: #919191;
+		border: none;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		font-size: 16px;
+		color: #fff;
+	}
+	&__leftBtn:hover {
+		background-color: #ffb600;
+		color: #fff;
+	}
+
+	&__leftCatalogTitle {
+		font-size: 20px;
+		color: #1b273d;
+		text-transform: uppercase;
+		margin-top: 34px;
+	}
+	&__leftCatalogList {
+		list-style-type: none;
+		padding: 0;
+		color: #919191;
+	}
+	&__leftCatalogLink {
+		color: #919191;
+	}
+
+	&__leftCatalogLink:hover {
+		color: #ffb600;
+		text-decoration: none;
+	}
+
+	&__leftCatalogItem{
+		margin-bottom: 10px;
+
+	}
+
+	&__rightTitle {
+		margin-bottom: 10px;
+	}
+	&__rightEquipmentTitle {
+		font-size: 14px;
+		color: #1b273d;
+		text-transform: uppercase;
+		margin-top: 34px;
+		margin-bottom: 15px;
+	}
+	&__rightP {
+		@include font($mpr, 14px, #999999, 26px);
+	}
+	&__rightPLast {
+		margin-bottom: 40px;
+		@include font($mpr, 14px, #999999, 26px);
+	}
+	&__rightDownload {
+		background-color: #ffb600;
+		display: flex;
+		justify-content: space-between;
+		padding: 34px 66px;
+		margin-bottom: 120px;
+		@include respondmax(xl) {
+			display: block;
+			text-align: center;
+		}
+
+
+	}
+	&__rightDownloadP {
+		color: #fff;
+		font-size: 25px;
+
+	}
+	&__rightDownloadLink {
+		color: #fff;
+		font-size: 25px;
+		border: 1px solid #fff;
+		padding: 5px 10px;	
+	}
+	&__rightDownloadLink:hover {
+		text-decoration: none;
+		color:#ffb600;
+		background-color: #fff;
+
+	}
+
+
+
+
+}

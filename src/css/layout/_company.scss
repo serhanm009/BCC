@@ -1,0 +1,25 @@
+.company {
+	padding: 70px 0;
+	&__btn {
+		height: 100px;
+		@include font($mpr, 16px, #1b273d );
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+
+	&__btn:hover {
+		color: white;
+	}
+	&__icon {
+		margin-bottom: 80px;
+	}
+	&__img {
+		margin-bottom: 80px;
+		@include respondmax(xl){
+			margin-bottom: 40px;
+
+		}
+	}
+}

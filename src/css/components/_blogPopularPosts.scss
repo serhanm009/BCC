@@ -1,0 +1,56 @@
+.blogPopularPosts{
+
+	&__title {
+		text-transform: uppercase;
+		margin: 50px 0 20px 0;
+	}
+	&__img {
+		@include respondmax(xl) {
+			margin-left: 70px;
+		}
+		@include respondmax(md) {
+			margin-left:0;
+		}
+	}
+	&__card {
+		border: none;
+		margin-top: 42px;
+		border-bottom: 1px solid #e4e4e4;
+		padding: 0 0 30px 0;
+
+	}
+	&__title2 {
+		@include font($mpr, 16px, #1b273d);
+		@include respondmax(xl) {
+			margin-left: 70px;
+			margin-top: 10px;
+		}
+		@include respondmax(md) {
+			margin-left:0;
+			margin-top: 0;
+		}
+	}
+	&__paragraph {
+		@include font($mpr, 13px, #919191, );
+		@include respondmax(xl) {
+			margin-left: 70px;
+		}
+		@include respondmax(md) {
+			margin-left:0;
+			margin-top: 0;
+		}
+	}
+	&__date {
+		@include font($mpr, 13px, #919191, );
+		@include respondmax(xl) {
+			margin-left: 70px;
+		}
+		@include respondmax(md) {
+			margin-left:0;
+			margin-top: 0;
+		}
+	}
+
+
+
+}

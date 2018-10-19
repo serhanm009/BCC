@@ -1,0 +1,14 @@
+.social {
+	@include respondmax(md){
+		padding: 2px;
+	}
+	display: flex;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	&__item {
+		margin-right: 5px;
+
+
+	}
+}

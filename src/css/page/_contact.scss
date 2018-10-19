@@ -1,0 +1,24 @@
+.contact{
+	margin-top:80px;
+	margin-bottom: 100px;
+	&__title{
+		color:#1b273d;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+	&__icon {
+		margin-bottom: 10px;
+	}
+	&__text{
+		color: #919191;
+		margin-bottom: 20px;
+	}
+
+
+}
+#googleMap {
+	margin-bottom: 20px;
+}
+.fa_icon {
+	color: #ffb600;
+}

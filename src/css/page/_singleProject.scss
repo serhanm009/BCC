@@ -1,0 +1,111 @@
+.singleProject {
+	
+	&__top {
+		background-color: #f8f8f8;
+		border-bottom: 1px solid #e4e4e4;
+	}
+	&__title {
+		padding: 50px 0;
+		font-size: 20px;
+		color: #1b273d;
+		text-transform: uppercase;
+
+	}
+	&__image{
+		margin-top: 75px;
+		
+	}
+	&__title2 {
+		margin-top: 46px;
+		margin-bottom: 10px;
+	}
+	&__line{
+		width: 90px;
+		height: 3px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	&__text {
+		font-size: 14px;
+		line-height: 28px;
+		color: #919191;
+	}
+	&__rightItem {
+		display: flex;
+		justify-content:space-between;
+	}
+	&__rightItemParagraph {
+		font-size: 14px;
+		color: #919191;
+
+	}
+
+	&__carouselTitle{
+		background-color: #f8f8f8;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		
+
+	}
+	&__button {
+		padding: 60px 50px;
+	}
+	&__link {
+		padding: 20px 55px;
+		background-color: #ffb600;
+		text-decoration: none;
+		color: white;
+
+	}
+
+}
+
+.latestImg {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+}
+
+.imgOverlay {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #fab814;
+
+	.projectOverleyP1 {
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+	.projectOverleyP2 {
+		color: #000;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	.projectOverleyIcon {
+		color: #fff;
+		border: 1px solid #fff;
+		width: 60px;
+		height: 60px;
+		font-size: 30px;
+		margin: 0 auto;
+		line-height: 60px;
+		margin-bottom: 20px;
+	}
+}
+
+.carousel_img:hover .imgOverlay {
+	opacity: 0.9;
+
+}

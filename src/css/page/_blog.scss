@@ -1,0 +1,92 @@
+.blog{
+	padding: 116px 0 106px 0 ;
+	.card {
+		margin-bottom: 50px;
+
+		&-body {
+			background-color: #f8f8f8;
+			padding: 52px 60px 53px 49px;
+		}
+		&-title {
+			@include font($mpr, 25px, #1b273d);
+			margin-bottom: 15px;
+
+
+		}
+		&-subtitle{
+			@include font($lr, 14px, #1b273d 26px);
+
+		}
+		&-span{
+			margin-right: 20px;
+
+		}
+		&-icon{
+
+		}
+		&-text {
+			@include font($lr, 14px, #919191 26px);
+			margin:30px 0 40px;
+		}
+		&-link {
+			color: white;
+			text-transform: uppercase;
+			background-color: #ffb600;
+			padding: 15px 40px;
+			margin-bottom: 40px;
+		}
+		&-link:hover {
+			color: white;
+			background-color: #1b273d;
+		}
+	}
+	&__pagination {
+		text-align: center;
+
+
+
+	}
+	&__paginationItem {
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		width: 40px;
+		height: 40px;
+		background-color: #ffb600;
+		color:white;
+		font-size: 14px;
+	}
+	&__paginationLink:hover{
+		text-decoration:none; 
+	}
+	&__paginationItem:hover {
+		background-color: #1b273d;
+		
+	}
+	&__search{
+		height: 50px;
+		padding: 0 20px;
+		@include font($mpr, 14px, #c5c5c5 26);
+
+	}
+	&__searchIcon{
+		z-index: 10 !important;
+		border-color: transparent;
+		margin-left: -45px;
+		color: #ffb600;
+		font-size: 20px;
+		margin-top: 3px;
+		margin-bottom: 2px;
+
+
+	}
+	&__searchIcon:hover{
+		background-color: white;
+		color: #ffb600;
+		border-color: transparent;
+		
+	}
+
+
+
+}

@@ -1,0 +1,37 @@
+.aboutUs{
+	padding: 57px 0 90px 0;
+	@include font($mpr, 14px, #c5c5c5, 26px);
+	&__title {
+		color: black;
+		text-transform: uppercase;
+
+	}
+	&__features{
+		display: flex;
+	}
+	&__featuresCol {
+		margin-right: 48px;
+	}
+	&__btn{
+		@include font($mpr, 14px, #000000, 26px);
+		@include respondmax(md) {
+			margin-bottom: 20px;
+		}
+		padding: 15px 25px;
+		border-color: #ffb600;
+		margin-right: 30px;
+		margin-top: 40px;
+	}
+	&__btn:hover{
+		@include font($mpr, 14px, #000000, 26px);
+		padding: 15px 25px;
+		background-color: #ffb600;
+		color: white;
+		border-color: #ffb600;
+		
+	}
+
+	
+
+
+} 

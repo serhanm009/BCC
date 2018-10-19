@@ -1,0 +1,152 @@
+.blogArticle{
+	padding: 116px 0 106px 0 ;
+	.card {
+		margin-bottom: 50px;
+
+		&-body {
+			background-color: #f8f8f8;
+			padding: 52px 60px 53px 49px;
+		}
+		&-title {
+			@include font($mpr, 25px, #1b273d);
+			margin-bottom: 15px;
+
+
+		}
+		&-subtitle{
+			@include font($lr, 14px, #1b273d 26px);
+
+		}
+		&-span{
+			margin-right: 20px;
+
+		}
+		&-icon{
+
+		}
+		&-text {
+			@include font($lr, 14px, #919191 26px);
+			margin:30px 0 40px;
+		}
+		&-text1 {
+			@include font($lr, 14px, #919191 26px);
+			
+		}
+		&-link {
+			color: white;
+			text-transform: uppercase;
+			background-color: #ffb600;
+			padding: 15px 40px;
+			margin-bottom: 40px;
+		}
+		&-link:hover {
+			color: white;
+			background-color: #1b273d;
+		}
+	}
+
+	&__search{
+		height: 50px;
+		padding: 0 20px;
+		@include font($mpr, 14px, #c5c5c5 26);
+
+	}
+	&__searchIcon{
+		z-index: 10 !important;
+		border-color: transparent;
+		margin-left: -45px;
+		color: #ffb600;
+		font-size: 20px;
+		margin-top: 3px;
+		margin-bottom: 2px;
+
+
+	}
+	&__searchIcon:hover{
+		background-color: white;
+		color: #ffb600;
+		border-color: transparent;
+		
+	}
+
+	&__quote {
+		background-color:#ffb600;
+		padding: 40px 50px 40px ;
+	}
+	&__quoteText{
+		@include font($mpr, 18px, #fff, 30px);
+	}
+	&__quoteAuthor{
+		
+	}
+
+	&__share {
+		@include font($mpr, 14px, #1b273d );
+		border-top: 1px solid #e4e4e4;
+		border-bottom: 1px solid #e4e4e4;
+		padding: 0;
+
+	}
+	&__paragraph {
+		margin: 0;
+		padding: 10px 0;
+	}
+	&__social {
+		margin: 0;
+		padding: 10px 0;
+
+	}
+	&__link{
+		color: #919191;
+		margin-right: 5px;
+	}
+	&__link:hover{
+		color: #ffb600;
+	}
+	&__card{
+		padding: 50px 60px 50px 50px;
+		background-color: #1b273d;
+	}
+	&__authorBio {
+		margin-top: 80px;
+	}
+	&__authorBioTitle{
+		color: white;
+	}
+	&__authorBioParagraph{
+		@include font($mpr, 14px, #fff );
+	}
+	&__authorBioImg {
+
+	}
+	&__comments{
+		text-transform: uppercase;
+		@include font($mpr, 30px, #1b273d );
+
+
+	}
+	&__commentsLine{
+		margin-bottom: 50px;
+	}
+	&__input{
+		height: 50px;
+		padding: 20px;
+		@include font($mpr, 14px, #1b273d );
+	}
+	&__tarea{
+		padding: 20px;
+		@include font($mpr, 14px, #1b273d );
+	}
+	&__commentBtn{
+		float: right;
+		padding: 15px 30px;
+		font-size: 12px;
+		background-color: #ffb600;
+		border-color: transparent;
+	}
+	&__commentBtn:hover{
+		background-color: #1b273d;
+		border-color: transparent;
+	}
+
+}

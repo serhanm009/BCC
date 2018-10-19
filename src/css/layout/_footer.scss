@@ -1,0 +1,151 @@
+.footer__top {
+	background-color: #333333;
+}
+.footer__bottom {
+	background-color: #444444;
+}
+.footer-contact {
+	color: #ffffff;
+	@include respondmax(lg) {
+		margin-bottom: 40px;
+	}
+	@include respondmax(md) {
+		text-align: center;
+		padding: 50px 0 0 0;
+	}
+
+}
+.footer-contact__icon {
+	margin-bottom: 13px;
+}
+.footer_contact_phone{
+	color: #bbbbbb;
+}
+.footer-contact__fax {
+	margin-bottom: 40px;
+}
+.footer_main {
+	@include respondmax(md) {
+		padding: 0;
+		text-align: center;
+
+	}
+	padding-left: 95px;
+	padding-right: 95px;
+	padding-top: 115px;
+	padding-bottom: 60px;
+
+}
+.footer_main h3 {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.socials {
+	@include respondmax(md) {
+		text-align: center;
+		margin: 15px auto;
+	}
+	list-style-type: none;
+	padding: 0;
+	margin-top: 28px;
+	display: flex;
+
+}
+.socials .socials_list_item{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 6px;
+
+}
+
+
+.socials_list_item_icon {
+	color: #ffffff;
+}
+
+.footer_services {
+	color: #ffffff;
+		@include respondmax(md) {
+		display: inline-block;
+
+	}
+}
+.footer_services_list{
+	margin-top: 45px;
+		@include respondmax(md) {
+		display: inline-block;
+		text-align: left;
+		margin: 15px auto;
+	}
+}
+
+.footer_services h3{
+
+}
+.footer_services ul  {
+	padding-left: 0;
+}
+.footer_services ul li {
+	list-style-type: none;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.footer_services ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer_newsletter {
+	color: #ffffff;
+}
+.footer_newsletter .input-group {
+	margin-top: 45px;
+	margin-bottom: 0;
+}
+.footer_newsletter input{
+	background-color: #333333;
+	margin-bottom: 27px;
+	width: 220px;
+	height: 40px;
+}
+.footer_newsletter .btn-outline-secondary{
+	margin-bottom: 27px;
+	width: 50px;
+	height: 40px;
+	border-color: #ffffff;
+
+} 
+.footer_newsletter p{
+	font-size: 13px;
+}
+.footer_copyright{
+	padding-top:35px;
+	padding-bottom: 35px;
+	color: #ffffff;
+
+}
+.footer_copyright p{
+	width: 100%;
+
+}
+.footer_services_span{
+	position: absolute;
+	margin-top: 40px;
+	left: 15px;
+	width: 25px;
+	height: 2px;
+	background-color: #ffc107;
+	@include respondmax(md) {
+		left: 217px;
+		transform:translateX(-50%);
+	}
+
+
+}
+.latest_works_images {
+	margin-top: 45px;
+}
+

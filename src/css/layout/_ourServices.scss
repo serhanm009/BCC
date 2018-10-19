@@ -1,0 +1,47 @@
+.ourServices {
+	@include respondmax(md){
+		text-align: center;
+	}
+	padding: 75px 0 60px 0;
+	background-color: #424242;
+	&__title{
+		text-transform: uppercase;
+		@include font($rr, 45px, white);
+
+	}
+	&__subTitle{
+		text-transform: uppercase;
+		@include font($rr, 16px, white);
+		margin-top: 35px;
+		margin-bottom: 40px;
+
+	}
+	&__paragraph{
+		@include font($rr, 12px, #999999, 26px);
+		@include respondmax(md){
+			margin-bottom: 30px;
+		}
+	}
+	&__img {
+
+	}
+	&__btn {
+		text-align: center;
+	}
+	&__btnLink {
+		color: black;
+		font-size: 14px;
+		background-color: #ffb600;
+		text-transform: uppercase;
+		padding: 17px 30px;
+		border-color: transparent;
+		box-shadow: 5px 10px #b2890d;	
+		margin-top: 70px;
+	}
+	&__btnLink:hover {
+		color: white;
+		background-color: #ffb600;
+		border-color: transparent;
+		
+	}
+}

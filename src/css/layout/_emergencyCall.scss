@@ -1,0 +1,43 @@
+.emergencyCall {
+	padding: 20px;
+	&__holder {
+		border: 1px solid #ffb600;
+		padding: 50px 0;
+		
+	}
+
+	&__tel {
+		@include font($rr, 30px, black);
+		text-transform: uppercase;
+	}
+	&__telNum {
+		color: #ffb600;
+		margin-left: 20px;
+		@include respondmax(lg){
+			display: inline-block;
+		}
+	}
+	&__paragraph {
+		@include font($rr, 13px, black);
+	}
+
+	&__btn {
+		text-align: right;
+	}
+
+	&__btnLink {
+		color: black;
+		font-size: 14px;
+		background-color: #ffb600;
+		text-transform: uppercase;
+		padding: 17px 30px;
+		border-color: transparent;	
+		margin-top:20px;
+	}
+	&__btnLink:hover {
+		color: white;
+		background-color: #ffb600;
+		border-color: transparent;
+		
+	}
+}

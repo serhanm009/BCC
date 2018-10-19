@@ -1,0 +1,12 @@
+.about {
+
+	
+	margin:70px 0; 
+	&__text {
+		@include font($mpr, 14px, #999999, 26px);
+		@include respondmax(md){
+			margin-top: 10px;
+
+		}
+	}
+}

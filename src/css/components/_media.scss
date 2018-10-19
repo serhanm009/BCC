@@ -1,0 +1,15 @@
+.media {
+	&__paragraph {
+		@include font($mpr, 14px, #c5c5c5, 26px);
+		border-bottom: 1px solid #c5c5c5;
+		padding-bottom: 50px;
+		margin-bottom: 40px;
+	}
+	&__title{
+		@include font($lr, 20px, #1b273d, 26px);
+	}
+
+	&-body {
+		
+	}
+	}
